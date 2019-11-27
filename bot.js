@@ -1,5 +1,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const client2 = new Discord.Client();
+const client3 = new Discord.Client();
+const client4 = new Discord.Client();
 var prefix ="1"
 
 client.on('message', message => {
@@ -50,4 +53,3 @@ client.login(process.env.TOKEN);
 client2.login(process.env.TOKEN2);
 client3.login(process.env.TOKEN3);
 client4.login(process.env.TOKEN4);
-
